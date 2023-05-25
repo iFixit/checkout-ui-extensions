@@ -9,7 +9,8 @@
       "dev": "shopify app dev",
       "info": "shopify app info",
       "generate": "shopify app generate",
-      "deploy": "shopify app deploy"
+      "deploy": "shopify app deploy",
+      "type-check": "pnpm run --recursive type-check"
    },
    "dependencies": {
       "@shopify/app": "3.46.0",
