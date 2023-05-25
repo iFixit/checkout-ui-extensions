@@ -1,13 +1,16 @@
 {
-  "name": "ui-extension",
-  "version": "1.0.0",
-  "main": "dist/main.js",
-  "license": "UNLICENSED",
-  "dependencies": {
-    "react": "^17.0.0",
-    "@shopify/checkout-ui-extensions-react": "^0.26.0"
-  },
-  "devDependencies": {
-    "@types/react": "^17.0.0"
-  }
+   "name": "ui-extension",
+   "version": "1.0.0",
+   "main": "dist/main.js",
+   "license": "UNLICENSED",
+   "scripts": {
+      "type-check": "tsc --pretty --noEmit"
+   },
+   "dependencies": {
+      "react": "^17.0.0",
+      "@shopify/checkout-ui-extensions-react": "^0.26.0"
+   },
+   "devDependencies": {
+      "@types/react": "^17.0.0"
+   }
 }
