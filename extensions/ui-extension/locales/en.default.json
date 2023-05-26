@@ -1,3 +1,6 @@
 {
-  "welcome": "Welcome to the {{extensionPoint}} extension!"
+   "codice_fiscale": {
+      "heading": "Codice Fiscale",
+      "label": "Codice Fiscale (optional)"
+   }
 }
