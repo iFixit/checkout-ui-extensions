@@ -5,6 +5,7 @@
    "compilerOptions": {
       "jsx": "react-jsx",
       "esModuleInterop": true,
+      "lib": ["WebWorker"],
       "strict": true
    },
    "include": ["./src"]
