@@ -1,7 +1,7 @@
 name: Setup pnpm
 description: Installs pnpm, and caches the data store
 runs:
-   using: "composite"
+   using: 'composite'
    steps:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2.2.4

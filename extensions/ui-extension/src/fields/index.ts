@@ -1,1 +1,1 @@
-export * from "./CodiceFiscale";
+export * from './CodiceFiscale';
