@@ -2,8 +2,12 @@ type = "checkout_ui_extension"
 name = "ui-extension"
 
 extension_points = [
-  'Checkout::Dynamic::Render'
+  'Checkout::Dynamic::Render',
+  'Checkout::Reductions::RenderAfter'
 ]
+
+[capabilities]
+network_access = true
 
 # [[metafields]]
 # namespace = "my-namespace"

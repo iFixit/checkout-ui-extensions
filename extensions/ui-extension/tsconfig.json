@@ -3,10 +3,14 @@
    // About the `react-jsx` tsconfig option, so IDE don't complain about missing react import
    // Changing options here won't affect the build of your extension
    "compilerOptions": {
+      "baseUrl": ".",
       "jsx": "react-jsx",
       "esModuleInterop": true,
       "lib": ["WebWorker"],
+      "paths": {
+         "@/*": ["src/*"]
+      },
       "strict": true
    },
-   "include": ["./src"]
+   "include": ["src"]
 }

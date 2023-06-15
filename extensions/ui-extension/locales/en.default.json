@@ -2,5 +2,8 @@
    "codice_fiscale": {
       "heading": "Codice Fiscale",
       "label": "Codice Fiscale (optional)"
+   },
+   "vat": {
+      "label": "VAT ID"
    }
 }
